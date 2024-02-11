@@ -1,0 +1,20 @@
+<aside>
+  <p>Favorite</p>
+  <ul>
+    <%favorites.forEach((product)=>{%>
+    <li>
+      <a href="/products/details/<%=product.id%>">
+        <img src="<%=product.image%>" alt="" />
+        <!--  -->
+        <p><%=product.name%></p>
+        <!--  -->
+      </a>
+
+      <form action="/unlikeProduct" method="POST">
+        <input type="hidden" name="productId" value="<%=product._id%>" />
+        <button id="unlikeBtn">Unlike</button>
+      </form>
+    </li>
+    <%})%>
+  </ul>
+</aside>

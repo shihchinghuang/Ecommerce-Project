@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+
+  <body>
+    <%- include('partials/navbar') %>
+
+    <form class="filterForm" action="/products" method="GET">
+      <input type="hidden" name="page" value="<%=page%>" />
+      <label>
+        Brand:
+        <input type="checkbox" name="brand" value="Nike" /> Nike
+        <input type="checkbox" name="brand" value="Adidas" /> Adidas
+        <input type="checkbox" name="brand" value="Lululemon" /> Lululemon
+        <input type="checkbox" name="brand" value="Hoka" /> Hoka
+        <input type="checkbox" name="brand" value="Converse" /> Converse
+      </label>
+
+      <label>
+        Type:
+        <input type="checkbox" name="type" value="Jacket" /> Jacket
+        <input type="checkbox" name="type" value="Sweatpants" /> Sweatpants
+        <input type="checkbox" name="type" value="Bag" /> Bag
+      </label>
+      <button id="button" type="submit">Apply Filter</button>
+    </form>
+
+    <main class="products-and-likedList">
+      <ul class="filtered-products">
+        <% products.forEach(product => { %>
+        <li>
+          <a href="/products/details/<%= product._id %>">
+            <!--  -->
+            <div class="img-wrapper">
+              <img src="<%= product.image %>" alt="Product Image" />
+            </div>
+            <!--  -->
+            <p class="product-name"><%=product.name %></p>
+            <!--  -->
+          </a>
+          <!--  -->
+          <%if(isLoggedIn){%>
+
+          <form action="/likeProduct" method="POST">
+            <input type="hidden" name="productId" value="<%=product._id%>" />
+            <button type="submit">Like</button>
+          </form>
+          <%}%>
+        </li>
+        <% }); %>
+      </ul>
+      <%if(isLoggedIn){%>
+      <!--  -->
+      <%- include('partials/sidebar') %>
+      <!--  -->
+      <%}%>
+    </main>
+
+    <div class="pagination">
+      <%if(page > 1) {%>
+      <a href="/products?page=<%=page-1%>">Prev</a>
+      <%}%>
+      <!--  -->
+      <span><%=page%></span>
+      <!--  -->
+      <%if(products.length === limit) {%>
+      <!--  -->
+      <a href="/products?page=<%=page+1%>">Next</a>
+      <!--  -->
+      <%}%>
+    </div>
+  </body>
+
+  <script src="/js/script.js"></script>
+</html>

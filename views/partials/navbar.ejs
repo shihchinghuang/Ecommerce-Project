@@ -1,0 +1,9 @@
+<div id="navbar-container">
+  <a href="/">Home</a>
+  <%if(!isLoggedIn){%>
+  <a href="/login">Login</a>
+  <a href="/signup">Signup</a>
+  <%}else{%>
+  <a href="/logout">Logout</a>
+  <%}%>
+</div>

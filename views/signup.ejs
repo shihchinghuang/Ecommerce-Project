@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div id="navbar-container">
+      <a href="/">Home</a>
+    </div>
+    <div id="signup-page">
+      <p class="login-hint">
+        Have an account already? <a href="/login">Login here</a>
+      </p>
+
+      <form id="signup-form">
+        <div class="inputs">
+          <div class="username">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="username" id="username" />
+            <p>
+              Username should be alphanumeric and the length should be between 4
+              to 32.
+            </p>
+          </div>
+          <hr />
+          <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="email" id="email" />
+            <p>Email should be a valid email address.</p>
+          </div>
+          <hr />
+          <div class="password">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="password" id="password" />
+            <p>
+              Password should include lowercase, uppercase, number, special
+              characters, and the length should be between 4 to 100
+            </p>
+          </div>
+          <hr />
+          <div class="password-confirm">
+            <label for="passwordConfirm">Confirm Password:</label>
+            <input
+              type="password"
+              placeholder="confirm your password"
+              id="passwordConfirm"
+            />
+          </div>
+          <hr />
+          <div class="role">
+            <label for="role">Role:</label>
+            <input
+              type="text"
+              placeholder="type in 'user' or 'admin'"
+              id="role"
+            />
+            <p>Role should only be 'user' or 'admin'.</p>
+          </div>
+        </div>
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </body>
+  <script src="/js/signup.js"></script>
+</html>

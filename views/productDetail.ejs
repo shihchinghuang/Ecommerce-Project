@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail - <%= targetProduct.name %></title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <%- include('partials/navbar') %>
+    <div id="detail-page">
+      <div class="detail-and-sidebar">
+        <div class="detail-container">
+          <div class="name-and-price">
+            <h3><%= targetProduct.name %></h3>
+            <p>$<%= targetProduct.price %></p>
+          </div>
+          <p><%= targetProduct.description %></p>
+          <div class="img-wrapper">
+            <%if(isLoggedIn){%>
+            <form action="/likeProduct" method="POST">
+              <input
+                type="hidden"
+                name="productId"
+                value="<%=targetProduct._id%>"
+              />
+              <button type="submit">Like</button>
+            </form>
+            <%}%>
+            <img src="<%= targetProduct.image %>" alt="" />
+          </div>
+        </div>
+        <%if(isLoggedIn){%>
+        <!--  -->
+        <%- include('partials/sidebar') %>
+        <!--  -->
+        <%}%>
+      </div>
+      <hr />
+      <p class="same-brand-title">You might be interested in...</p>
+      <div class="same-brand-container">
+        <%sameBrandProducts.forEach(product=>{%>
+        <li>
+          <a href="/products/details/<%= product._id %>">
+            <div class="img-wrapper">
+              <img src="<%= product.image %>" alt="" />
+            </div>
+            <%=product.name %>
+          </a>
+          <!--  -->
+          <%if(isLoggedIn){%>
+          <form action="/likeProduct" method="POST">
+            <input type="hidden" name="productId" value="<%=product._id%>" />
+            <button type="submit">Like</button>
+          </form>
+          <%}%>
+          <!--  -->
+        </li>
+        <% })%>
+      </div>
+    </div>
+  </body>
+</html>

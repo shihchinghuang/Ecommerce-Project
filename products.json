@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Nike FlexFit Sweatpants",
+    "brand": "Nike",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Comfortable and flexible sweatpants for your active lifestyle.",
+    "price": 50
+  },
+  {
+    "name": "Nike AeroTech Performance Jacket",
+    "brand": "Nike",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "High-performance jacket designed to enhance your athletic endeavors.",
+    "price": 120
+  },
+  {
+    "name": "Nike PowerPouch Gym Bag",
+    "brand": "Nike",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Spacious gym bag with multiple compartments for all your essentials.",
+    "price": 80
+  },
+
+  {
+    "name": "Nike SwiftStride Track Pants",
+    "brand": "Nike",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Track pants designed for swift and comfortable movement.",
+    "price": 55
+  },
+  {
+    "name": "Nike BlazeShield Windbreaker",
+    "brand": "Nike",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Wind-resistant jacket for outdoor activities.",
+    "price": 130
+  },
+  {
+    "name": "Nike GearGlide Duffel",
+    "brand": "Nike",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Durable duffel bag with GearGlide technology.",
+    "price": 90
+  },
+
+  {
+    "name": "Adidas TrailTrek Sweatpants",
+    "brand": "Adidas",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Trail-ready sweatpants for your adventurous journeys.",
+    "price": 60
+  },
+  {
+    "name": "Adidas SummitShield All-Weather Jacket",
+    "brand": "Adidas",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Versatile all-weather jacket to conquer the elements.",
+    "price": 140
+  },
+  {
+    "name": "Adidas TrekTech Backpack",
+    "brand": "Adidas",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Tech-savvy backpack for your urban adventures.",
+    "price": 100
+  },
+
+  {
+    "name": "Adidas RapidRun Joggers",
+    "brand": "Adidas",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Joggers engineered for rapid and comfortable runs.",
+    "price": 65
+  },
+  {
+    "name": "Adidas AlpineArmor Insulated Jacket",
+    "brand": "Adidas",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Insulated jacket for alpine adventures.",
+    "price": 150
+  },
+  {
+    "name": "Adidas ExploreFlow Daypack",
+    "brand": "Adidas",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "ExploreFlow daypack for your daily explorations.",
+    "price": 110
+  },
+
+  {
+    "name": "Lululemon StreetStyle Joggers",
+    "brand": "Lululemon",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Joggers designed for street-style comfort.",
+    "price": 70
+  },
+  {
+    "name": "Lululemon MetroFit Urban Jacket",
+    "brand": "Lululemon",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Urban jacket with a perfect fit for metropolitan life.",
+    "price": 160
+  },
+  {
+    "name": "Lululemon CityStride Messenger Bag",
+    "brand": "Lululemon",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Messenger bag for navigating the city in style.",
+    "price": 120
+  },
+
+  {
+    "name": "Lululemon EcoFlex Urban Sweatpants",
+    "brand": "Lululemon",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Eco-friendly sweatpants for sustainable urban living.",
+    "price": 75
+  },
+  {
+    "name": "Lululemon MetroShield Reflective Jacket",
+    "brand": "Lululemon",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Reflective jacket for enhanced visibility during nighttime activities.",
+    "price": 170
+  },
+  {
+    "name": "Lululemon SkylineSprint Sling Bag",
+    "brand": "Lululemon",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Sling bag designed for on-the-go adventures.",
+    "price": 130
+  },
+
+  {
+    "name": "Hoka AquaFlex Water-Repellent Sweatpants",
+    "brand": "Hoka",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Water-repellent sweatpants for versatile outdoor activities.",
+    "price": 85
+  },
+  {
+    "name": "Hoka HydroGuard Swim Jacket",
+    "brand": "Hoka",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Swim jacket with HydroGuard technology for comfortable water activities.",
+    "price": 180
+  },
+  {
+    "name": "Hoka SplashProof Dry Bag",
+    "brand": "Hoka",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Splash-proof dry bag to keep your essentials safe and dry.",
+    "price": 110
+  },
+
+  {
+    "name": "Hoka AquaStride Board Shorts",
+    "brand": "Hoka",
+    "type": "Sweatpants",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Board shorts designed for aqua strides and beach adventures.",
+    "price": 90
+  },
+  {
+    "name": "Hoka WaveRider Surf Jacket",
+    "brand": "Hoka",
+    "type": "Jacket",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Surf jacket with WaveRider technology for ultimate surfing experiences.",
+    "price": 200
+  },
+  {
+    "name": "Hoka HydroHaul Waterproof Backpack",
+    "brand": "Hoka",
+    "type": "Bag",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Waterproof backpack for hauling your gear through any weather.",
+    "price": 150
+  },
+
+  {
+    "name": "Converse StreetStyle Sneakers",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Classic street-style sneakers for a timeless and casual look.",
+    "price": 55
+  },
+  {
+    "name": "Converse HighTop Urban Shoes",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "High-top urban shoes that blend style and comfort for city living.",
+    "price": 120
+  },
+  {
+    "name": "Converse RetroTech Canvas Sneakers",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "RetroTech canvas sneakers for a vintage-inspired street look.",
+    "price": 70
+  },
+  {
+    "name": "Converse UrbanStride Athletic Shoes",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://images.lululemon.com/is/image/lululemon/LU9B96S_0001_1",
+    "description": "Athletic shoes designed for urban striding and comfortable walks.",
+    "price": 80
+  },
+  {
+    "name": "Converse AeroFit Running Sneakers",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://cdnimg.emmiol.com/pdm/images/CCJ0302OU/CCJ0302OU-24.jpg",
+    "description": "Running sneakers with AeroFit technology for a lightweight and supportive run.",
+    "price": 90
+  },
+  {
+    "name": "Converse EnergyBoost Sport Shoes",
+    "brand": "Converse",
+    "type": "Footwear",
+    "image": "https://m.media-amazon.com/images/I/51v4ULJ-uUL._AC_SL1320_.jpg",
+    "description": "Sport shoes with EnergyBoost technology for an extra burst of energy.",
+    "price": 75
+  }
+]
